@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sara Nagahara - Portifólio</title>
+    <link rel="icon" type="image/png" href="cat-icon.jpg">
+</head>
+<body>
+
+    <!---Inicio-->
+        <header>
+    <section id="inicio-head">
+        <nav class="nav-bar">
+            <div class="nav-list">
+                <ul>
+                    <li><a class="social-media" href="https://www.linkedin.com/in/sara-nagahara-9077812b7/" target="_blank">LinkedIn</a></li>
+                    <li><a class="social-media" href="https://www.instagram.com/saranagahara/" target="_blank">Instagram</a></li>
+                    <li><a class="social-media" href="https://www.youtube.com/@naghzera/videos" target="_blank">Youtube</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li><a class="nav-item" href="https://www.linkedin.com/in/sara-nagahara-9077812b7/" target="_blank">LinkedIn</a></li>
+                <li><a class="nav-item" href="https://www.instagram.com/saranagahara/" target="_blank">Instagram</a></li>
+                <li><a class="nav-item" href="https://www.youtube.com/@naghzera/videos" target="_blank">Youtube</a></li>
+            </ul>
+        </div>
+        </header>
+    </section>
+    <section id="começo">
+        <div class="centralizando">
+        <img src="perfil.png" alt="Sara Nagahara Perfil" class="perfil">
+        <div id="textos">
+        <h1>Olá, sou Sara.</h1>
+        <p class="apresentacao">Sara Nagahara, estudante de desenvolvimento </br> web a caminho de se tornar <strong>Sênior</strong>.</p>
+        <h2 class="front-title-h2">Front-End Developer</h2>
+        <div>
+        </div>
+    </section>
+    <!---Meio-->
+    <section id="meio">
+        <h2 id="projetos-title">Projetos</h2>
+        <div id="projetos-div">
+    
+            <!-- FreeCodeCamp section -->
+            <div class="free-div">
+                <figure>
+                    <img src="freecodecamp.png" alt="FreeCodeCamp Certificado" class="certificado">
+                    <figcaption class="titles-projects">Desafios FreeCodeCamp</figcaption>
+                </figure>
+            </div>
+    
+            <!-- GitHub section -->
+            <div class="git-div">
+                <figure>
+                    <img src="gitt.png" alt="Repositórios GitHub" class="github-logo">
+                    <figcaption class="titles-projects" >Repositórios GitHub</figcaption>
+                </figure>
+            </div>
+    
+            <!-- CodePen -->
+                <div class="code-div">
+                    <figure>
+                        <img src="codepentwo.png" alt="Projetos do CodePen" class="code-logo">
+                        <figcaption class="titles-projects">Sites Do CodePen</figcaption>
+                    </figure>
+            </div>
+    
+        </div>
+    </section>
+
+    <!--Hobbies e Habilidades-->
+
+    <section id="gaming-hobbies-sec">
+        <div id="hobbies-div">
+        <img src="cat-gaming.gif" alt="gato gamer" class="cat-gamer-gif">
+        <h2 id="hobbie-title">Hobbies & Habilidades</h2>
+        <p id="hobbies-text">Sou bem nerd, no tempo livre gosto de jogar, desenhar, tocar teclado e também edito</br> vídeos e imagens por diversão.Tenho <strong>inglês avançado</strong> e certificado no curso do <strong>CNA.</strong> </br>Gosto muito da idéia de criar novas tecnológias e contribuir para a criação </br>de layouts bonitos e experiência do usuário. Atualmente estou fazendo </br>faculdade de <strong>Análise e Desenvolvimento de Sistemas,</strong> cursos de programação </br>da <strong>Udemy</strong>, também assistindo aulas por conta própria pelo youtube</br> e estou em busca de oportunidades de <strong>estágio.</strong></p>
+        <hr> 
+        </div> 
+    </section>
+    <footer>
+        <section class="fim">
+            <div class="textos-footer">
+        <span>
+            
+            <button class="contato" onclick="enviarEmail()"><img src="emailrosa.png" alt="Símbolo de email" class="email">Contato</button>
+            <a href="#inicio-head" class="contato">Voltar Ao Início</a>
+        </span>
+            </div>
+            <p class="end"><img src="opink.png" alt="Símbolo de localização" class="localizacao"> São Roque - SP</p>
+            <p class="copy-right">&copy; Sara Nagahara - Web Developer</p>
+        </section>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>

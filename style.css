@@ -1,0 +1,856 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+/*Nav*/
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+*{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #000000;
+    border-bottom: 1px solid #F72798;
+    
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-media{
+    margin: 0 150px;
+}
+
+nav a{
+    color: #F72798;
+    font-size: 22px;
+    text-decoration: dotted;
+    font-weight: 700;
+}
+
+.social-media:hover{
+    color: #ffff;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+
+.mobile-menu {
+    display: none;
+}
+
+
+.icon{
+    width: 40px;
+}
+
+/*Foto e textinho*/
+
+#começo{
+    width: 100%;
+    height: 700px;
+    background-color: #000000;
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+.centralizando{
+    margin-top: 9%;
+    margin-left: 25%;
+    color: #F72798;
+}
+
+.perfil {
+    border-radius: 50%;
+    width: 300px;
+    float: left;
+    margin-right: 100px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.front-title-h2{
+    font-family: "Exo 2", sans-serif;
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+.apresentacao, a{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+}
+
+.apresentacao{
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.textos{
+    margin-top: 5%;
+}
+
+/* Meio */
+
+#projetos-div, .titles-projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+#projetos-title{
+    font-size: 23pt;
+    font-weight: 700;
+    font-family: "Exo 2", sans-serif;
+    text-align: center;
+
+}
+
+#projetos-div, #projetos-title{
+    margin-top: 20px;
+}
+
+
+.titles-projects{
+    margin-left: 170px;
+    font-size: 25px;
+    font-family: "Rajdhani", sans-serif;
+    text-decoration: none;
+    
+}
+
+
+
+/* CSS Button*/
+.certificado, .github-logo, .code-logo {
+  --b: 3px;   
+  --s: .45em; 
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  margin-left: 105px;
+  font-weight: bold;
+}
+
+.certificado:hover,
+.certificado:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.certificado:active {
+  background: var(--color);
+  color: #fff;
+}
+
+.github-logo:hover,
+.github-logo:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.github-logo:active {
+  background: var(--color);
+  color: #fff;
+}
+
+.code-logo:hover,
+.code-logo:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.code-logo:active {
+  background: var(--color);
+  color: #fff;
+}
+
+
+
+/*GitHub*/
+
+.github-logo{
+    width: 350px;
+    height: 270px;
+  
+}
+
+/*codepen*/
+
+.code-logo{
+    width: 350px;
+    height: 270px;
+
+}
+
+/*FreeCodeCamp*/
+.certificado{
+    width: 400px;
+}
+
+
+/*Hobbies e Habilidades*/
+
+#gaming-hobbies-sec{
+    height: 700px;
+    background-color: #f78da7;
+    width: 100%;
+    padding: 10px 0;
+    color: #000000;
+}
+
+#hobbies-div{
+    margin-top: 10%;
+    margin-left: 23%;
+}
+
+ /* image */
+
+.cat-gamer-gif{
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+}
+
+/* textos */
+
+#hobbie-title{
+    
+    font-family: "Exo 2", sans-serif;
+    font-size: 25pt;
+    font-weight: 700;
+}
+
+#hobbies-text{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 21pt;
+    margin-top: 20px;
+}
+
+
+hr {
+    border: dotted  #F72798 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+/*footer*/
+
+footer {
+    background-color: #000000;
+    color: #F72798;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.textos-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    
+}
+
+footer p{
+    margin-top: 5px;
+}
+
+
+.contato{
+    color: #F72798;
+    border: none;
+    background-color: #000000;
+    font-size: 15px;
+    
+}
+
+.contato:hover{
+    color: #fff;
+}
+
+.email{
+    width: 11px;
+    margin-right: 5px;
+}
+
+
+.localizacao{
+    width: 8px;
+    margin-right: 2px;
+}
+
+
+
+
+/* nav responsivo em outros aparelhos menores */
+
+
+@media (max-width: 425px) {
+
+    .nav-list{
+        display: none;
+    }
+    .nav-bar {
+        padding: 1.4rem 1rem;
+        background-color: #000000;
+    }
+    .nav-item {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 100%;
+        
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+        color: #F72798;
+        font-size: 20px;
+        text-decoration: dotted;
+        font-weight: 700;
+        padding: 1.2rem 0;
+        
+    }
+
+    .nav-item:active{
+        color: #fff;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+        
+    }
+    .mobile-menu {
+        width: 100%;
+        background-color: #000000;
+    }
+    .open {
+        display: block;
+    }
+
+}
+
+
+/* Tamanhos */
+
+@media (min-width: 320px) {
+
+    /*começo*/
+
+    .perfil{
+        width: 200px;
+        float: none;
+        
+    }
+
+   .centralizando{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 67%;
+    }
+
+    h1{
+        font-size: 25pt;
+    }
+
+    .apresentacao{
+        font-size: 22pt;
+    }
+
+    .front-title-h2{
+        font-size: 16pt;
+    }
+
+    /*Projetos Do Meio*/
+
+    #projetos-div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        left: -100px;
+        position: relative;
+    }
+
+
+    .free-div, .git-div, .code-div {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    .certificado, .github-logo, .code-logo {
+        width: 93%; 
+        height: 200px; 
+    }
+
+    .titles-projects {
+        font-size: 16pt;
+        width: 100%;
+        
+    }
+    
+  /*hobbies div*/
+
+  .cat-gamer-gif{
+    width: 200px;
+    float: none;
+  }
+
+  #hobbie-title{
+    font-size: 24pt;
+  }
+
+  #hobbies-text{
+    font-size: 18pt;
+  }
+
+  #gaming-hobbies-sec{
+    height: 100%;
+  }
+
+  #hobbies-div{
+    width: 68%;
+  }
+    
+  hr{
+    width: 10%;
+    height: 20%;
+  }
+
+}
+
+/*Tablets*/
+
+@media (min-width: 768px) {
+
+    /*nav*/
+
+    .social-media{
+        margin: 0 110px;
+    }
+
+    /*começo*/
+
+    #começo{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 28pt;
+    }
+
+    .apresentacao{
+        font-size: 25pt;
+    }
+
+    .front-title-h2{
+        font-size: 18pt;
+    }
+
+    /*projetos div*/
+
+    #projetos-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .free-div, .git-div, .code-div {
+        width: 100%; 
+        margin-bottom: 30px;
+    }
+
+    .certificado, .github-logo, .code-logo {
+        width: 97%; 
+        height: 370px; 
+    }
+
+    .titles-projects {
+        font-size: 20pt;
+        width: 100%;
+        margin-left: 350px;
+    }
+
+    #projetos-title{
+        font-size: 25pt;
+    }
+
+}
+
+/*Laptops*/
+
+@media (min-width: 1024px){
+    /*projetos div*/
+
+    #projetos-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .free-div, .git-div, .code-div {
+        width: 50%; 
+        margin-bottom: 30px;
+        margin-left: 25%;
+    }
+
+    .certificado, .github-logo, .code-logo {
+        width: 100%; 
+        height: 300px; 
+    }
+
+    .titles-projects {
+        font-size: 20pt;
+        width: 100%;
+        margin-left: 55%;
+    }
+
+    #projetos-title{
+        font-size: 25pt;
+    }
+
+    hr{
+       margin-right: 55%;
+    }
+
+}
+
+/*Computadores*/
+
+@media (min-width: 1440px){
+    *{
+        margin: 0;
+    }
+    
+    header{
+        width: 100%;
+        background-color: #000000;
+        border-bottom: 1px solid #F72798;
+        
+    }
+    
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 6rem;
+    }
+    
+    .nav-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .nav-list ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    .social-media{
+        margin: 0 150px;
+    }
+    
+    nav a{
+        color: #F72798;
+        font-size: 22px;
+        text-decoration: dotted;
+        font-weight: 700;
+    }
+    
+    .social-media:hover{
+        color: #ffff;
+    }
+    
+    .mobile-menu-icon {
+        display: none;
+    }
+    
+    
+    .mobile-menu {
+        display: none;
+    }
+    
+    
+    .icon{
+        width: 40px;
+    }
+    
+    /*Foto e textinho*/
+    
+    #começo{
+        width: 100%;
+        height: 700px;
+        background-color: #000000;
+        width: 100%;
+        padding: 10px 0;
+        
+    }
+    
+    
+    .centralizando{
+        margin-top: 9%;
+        margin-left: 25%;
+        color: #F72798;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .perfil {
+        border-radius: 50%;
+        width: 300px;
+        margin-right: 100px;
+    }
+    
+    h1{
+        font-size: 50px;
+        font-family: "Exo 2", sans-serif;
+    }
+    
+    .front-title-h2{
+        font-family: "Exo 2", sans-serif;
+        margin-top: 20px;
+        font-size: 1.8em;
+    }
+    
+    .apresentacao, a{
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 400;
+    }
+    
+    .apresentacao{
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    
+    .textos{
+        margin-top: 5%;
+    }
+    
+    /* Meio */
+    
+    #projetos-div, .titles-projects{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 42vw;
+        
+    }
+    
+    #projetos-title{
+        font-size: 23pt;
+        font-weight: 700;
+        font-family: "Exo 2", sans-serif;
+        text-align: center;
+    
+    }
+    
+    #projetos-div, #projetos-title{
+        margin-top: 20px;
+    }
+    
+    
+    .titles-projects{
+        margin-left: 170px;
+        font-size: 25px;
+        font-family: "Rajdhani", sans-serif;
+        text-decoration: none;
+        
+    }
+    
+    /*GitHub*/
+
+.github-logo{
+    width: 350px;
+    height: 270px;
+  
+}
+
+/*codepen*/
+
+.code-logo{
+    width: 350px;
+    height: 270px;
+
+}
+
+/*FreeCodeCamp*/
+.certificado{
+    width: 400px;
+}
+
+
+/*Hobbies e Habilidades*/
+
+#gaming-hobbies-sec{
+    height: 700px;
+    background-color: #f78da7;
+    width: 100%;
+    padding: 10px 0;
+    color: #000000;
+}
+
+#hobbies-div{
+    margin-top: 10%;
+    margin-left: 23%;
+}
+
+ /* image */
+
+.cat-gamer-gif{
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+}
+
+/* textos */
+
+#hobbie-title{
+    
+    font-family: "Exo 2", sans-serif;
+    font-size: 25pt;
+    font-weight: 700;
+}
+
+#hobbies-text{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20.8pt;
+    margin-top: 20px;
+}
+
+
+hr {
+    border: dotted  #F72798 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+/*footer*/
+
+footer {
+    background-color: #000000;
+    color: #F72798;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.textos-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    
+}
+
+footer p{
+    margin-top: 5px;
+}
+
+
+.contato{
+    color: #F72798;
+    border: none;
+    background-color: #000000;
+    font-size: 15px;
+    
+}
+
+.contato:hover{
+    color: #fff;
+}
+
+.email{
+    width: 11px;
+    margin-right: 5px;
+}
+
+
+.localizacao{
+    width: 8px;
+    margin-right: 2px;
+}
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
